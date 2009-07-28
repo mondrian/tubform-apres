@@ -4,9 +4,11 @@
   <% else %>
 	  <li><%= link_to "Início", "/login" %></li>
   <% end %>
-
     <% if logged_in? %>
+        <li><%= link_to "Inicio", "/" %></li>
         <li><%= link_to "Pedidos", :controller => "pedidos", :action => "index" %></li>
+        <li><%= link_to "Notas Fiscais", :controller => "notas_fiscais", :action => "index" %></li>
+        <li><%= link_to "Pedidos de Assistência", :controller => "pedidos_de_assistencia", :action => "index" %></li>
 		<% end %>
 
   <% if logged_in? %>
