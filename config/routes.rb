@@ -3,6 +3,16 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :classes
 
+  map.resources :componentes_pedido_de_assistencia
+
+  map.resources :componentes
+
+  map.resources :itens_pedido_de_assistencia
+
+  map.resources :motivos_assistencia
+
+  map.resources :pedidos_de_assistencia
+
   map.resources :fornecedores
 
   map.resources :notas_fiscais
