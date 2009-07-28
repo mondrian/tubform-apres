@@ -1,4 +1,4 @@
-<h1>Editing fornecedor</h1>
+<h1>Editando fornecedor</h1>
 
 <% form_for(@fornecedor) do |f| %>
   <%= f.error_messages %>
@@ -16,9 +16,9 @@
     <%= f.text_field :cnpj %>
   </p>
   <p>
-    <%= f.submit 'Update' %>
+    <%= f.submit 'Atualizar' %>
   </p>
 <% end %>
 
-<%= link_to 'Show', @fornecedor %> |
-<%= link_to 'Back', fornecedores_path %>
+<%= link_to 'Mostrar', @fornecedor %> |
+<%= link_to 'Voltar', fornecedores_path %>
