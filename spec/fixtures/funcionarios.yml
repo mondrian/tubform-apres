@@ -1,0 +1,36 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  tipo: 'A'
+  nome: 'LUCILENE BEZERRA'
+  endereco: 'RUA DA PAZ, 343'
+  complemento: '1. ANDAR'
+  cep: '63500000'
+  cidade_id: 1
+  uf: 'CE'
+  fone: 8843456600
+  cpf: '12345678910'
+  rg: '21345'
+  pai: 'RAIMUNDO PEREIRA'
+  mae: 'LUCIMAR PEREIRA'
+  numero_carteira_trabalho: '232234'
+  serie_carteira_trabalho: 'CE'
+  titulo_eleitor: '12345223'
+  zona_eleitoral: '13'
+  admissao: '2009-04-24'
+  registro: '2009-04-24'
+  nascimento: '2009-04-24'
+  naturalidade: 'CE'
+  estado_civil: 'CASADA'
+  grau_instrucao: '2.GRAU'
+  cadastro_pis: '2009-04-24'
+  numero_pis: '234564'
+  cod_banco_pis: '104'
+  nome_banco_pis: 'CAIXA'
+  cod_agencia_pis: '0613'
+  nome_agencia_pis: 'IGUATU'
+  endereco_banco_pis: 'PRACA CAIXA'
+  demissao: 
+  observacao: 'MyText'
+  aci: 'MyText'
+  email: 'MyString'

@@ -1,0 +1,53 @@
+<% form_for(@item_pedido) do |f| %>
+  <%= f.error_messages %>
+
+    <%= f.hidden_field(:pedido_id) %>
+
+ <h2>Adicionar ítem ao pedido <%= params[:id] %></h2>
+<p>
+  <%= f.label :produto_id, 'Produto' %><br />
+  <%= f.select :produto_id, @produtos, :prompt => "" %>
+</p>
+
+  <%= f.label :valor_tabela, 'Valor de tabela' %><br />
+<p>
+<div id='div_valor_tabela'>
+  <%= f.text_field :valor_tabela  %>
+</div>
+</p>
+
+<p>
+  <%= f.label :desconto, 'Percentual de desconto' %><br />
+  <%= f.text_field :desconto  %>
+</p>
+
+<p>
+  <%= f.label :valor_venda, 'Valor de Venda' %><br />
+  <%= f.text_field :valor_venda  %>
+</p>
+
+<p>
+  <%= f.label :quantidade %> <br/>
+  <%= f.text_field :quantidade %>
+</p>
+
+<div id="detalhe_produto">
+</div>
+
+  <p>
+    <%= f.submit 'Salvar' %>
+  </p>
+
+<%= observe_field :item_pedido_produto_id,
+   :update => "detalhe_produto",
+   :url => {:action => 'detalhe'},
+   :with => :produto_id %>
+
+<%= observe_field 'produto_id',
+  :update => 'div_valor_tabela',
+  :url => {:action => 'valor_tabela'},
+  :with => :produto_id
+%>
+
+<% end %>
+

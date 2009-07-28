@@ -1,0 +1,16 @@
+<ul id="main">
+  <% if logged_in? %>
+	  <li><a href="/usuarios">Usuário: <%= current_user.login.split("@")[0] %></a></li>
+  <% else %>
+	  <li><%= link_to "Início", "/login" %></li>
+  <% end %>
+
+    <% if logged_in? %>
+        <li><%= link_to "Pedidos", :controller => "pedidos", :action => "index" %></li>
+		<% end %>
+
+  <% if logged_in? %>
+    <li><%= link_to "Sair", "/logout" %></li>
+  <% end %>
+</ul>
+</div>

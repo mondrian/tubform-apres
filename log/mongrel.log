@@ -1,0 +1,127 @@
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at log/mongrel.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3000
+** Starting Rails with development environment...
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3000
+** Writing PID file to log/mongrel.pid
+
+<script type="text/javascript">
+var grid;
+var create  = JJWorks.JActionCreate('pedido', 'pedidos');
+var edit    = JJWorks.JActionEdit('pedido', 'pedidos');
+var save    = JJWorks.JActionSave('pedido', 'pedidos');
+var update  = JJWorks.JActionUpdate('pedido', 'pedidos');
+var destroy = JJWorks.JActionDestroy('pedidos');
+
+Ext.onReady(function(e){
+
+  grid = new JJWorks.JGrid({
+    columns: [
+      {id:'id', header:'Pedido Nº:', width:10, sortable:true, dataIndex:'id'},
+      { width: 8, header: 'Tipo', sortable: true, dataIndex: 'tipo'}, { width: 60, header: 'Cliente', sortable: true, dataIndex: 'cliente.razao_social'}, { width: 15, header: 'Valor', sortable: true, dataIndex: 'valor'}, { renderer: Ext.util.Format.dateRenderer('d/m/Y'), width: 15, header: 'Data', sortable: true, dataIndex: 'data'}
+    ],
+    title:'Listagem de Pedidos',
+    renderTo: 'grid-pedidos',
+    entities: 'pedidos',
+    plugins: [new Ext.ux.grid.Search({
+      iconCls:'icon-zoom',
+      readonlyIndexes:['note'],
+      disableIndexes:['pctChange'],
+      minChars:3,
+      autoFocus:true
+    })]
+  });
+
+});
+</script>
+<div id="grid-pedidos">
+</div>
+
+<script type="text/javascript">
+var grid;
+var create  = JJWorks.JActionCreate('pedido', 'pedidos');
+var edit    = JJWorks.JActionEdit('pedido', 'pedidos');
+var save    = JJWorks.JActionSave('pedido', 'pedidos');
+var update  = JJWorks.JActionUpdate('pedido', 'pedidos');
+var destroy = JJWorks.JActionDestroy('pedidos');
+
+Ext.onReady(function(e){
+
+  grid = new JJWorks.JGrid({
+    columns: [
+      {id:'id', header:'Pedido Nº:', width:10, sortable:true, dataIndex:'id'},
+      { width: 8, header: 'Tipo', sortable: true, dataIndex: 'tipo'}, { width: 60, header: 'Cliente', sortable: true, dataIndex: 'cliente.razao_social'}, { width: 15, header: 'Valor', sortable: true, dataIndex: 'valor'}, { renderer: Ext.util.Format.dateRenderer('d/m/Y'), width: 15, header: 'Data', sortable: true, dataIndex: 'data'}
+    ],
+    title:'Listagem de Pedidos',
+    renderTo: 'grid-pedidos',
+    entities: 'pedidos',
+    plugins: [new Ext.ux.grid.Search({
+      iconCls:'icon-zoom',
+      readonlyIndexes:['note'],
+      disableIndexes:['pctChange'],
+      minChars:3,
+      autoFocus:true
+    })]
+  });
+
+});
+</script>
+<div id="grid-pedidos">
+</div>
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /home/magno/workspace/tubform-rsig/tmp/pids/mongrel_selenium.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3001
+** Starting Rails with test environment...
+** Rwt actived
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3001
+** Writing PID file to /home/magno/workspace/tubform-rsig/tmp/pids/mongrel_selenium.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /home/magno/workspace/tubform-rsig/tmp/pids/mongrel_selenium.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3001
+** Starting Rails with test environment...
+** Rwt actived
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3001
+** Writing PID file to /home/magno/workspace/tubform-rsig/tmp/pids/mongrel_selenium.pid
+** TERM signal received.
+** Daemonized, any open files are closed.  Look at /home/juliana/Workspace/tubform-rsig/tmp/pids/mongrel_selenium.pid and log/mongrel.log for info.
+** Starting Mongrel listening at 0.0.0.0:3001
+** Starting Rails with test environment...
+** Rwt actived
+** Rails loaded.
+** Loading any Rails specific GemPlugins
+** Signals ready.  TERM => stop.  USR2 => restart.  INT => stop (no restart).
+** Rails signals registered.  HUP => reload (without restart).  It might not work well.
+** Mongrel 1.1.5 available at 0.0.0.0:3001
+** Writing PID file to /home/juliana/Workspace/tubform-rsig/tmp/pids/mongrel_selenium.pid
+** TERM signal received.

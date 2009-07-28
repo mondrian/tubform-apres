@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="description" content="description"/>
+<meta name="keywords" content="keywords"/>
+<meta name="author" content="author"/>
+<link rel="stylesheet" type="text/css" href="/stylesheets/blue.css" media="screen"/>
+<title>Tubform - rSig</title>
+<%= javascript_include_tag :all %>
+<%= calendar_date_select_includes 'blue' %>
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="main">
+
+		<div class="header">
+
+			<div class="title">
+				<h1>Tubform - rSig</h1>
+			</div>
+
+		</div>
+
+		<div class="content">
+		  <%= flash[:notice] if flash[:notice] %>
+		  <%= flash[:error] if flash[:error] %>
+
+	    <%= yield %>
+		</div>
+
+		<div class="sidenav">
+      <%= render :partial => include_menu %>
+		</div>
+
+		<div class="clearer"><span></span></div>
+
+	</div>
+
+	<div class="footer">&copy; 2009 <a href="http://www.mondriantecnologia.com">Mondrian Tecnologia</a>. </div>
+
+</div>
+
+</body>
+
+</html>

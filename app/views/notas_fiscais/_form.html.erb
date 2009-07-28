@@ -1,0 +1,108 @@
+  <p>
+    <%= f.label :numero_nota, 'Número da nota' %><br />
+    <%= f.text_field :numero_nota %>
+  </p>
+  <p>
+    <%= f.label :selo, 'Selo' %><br />
+    <%= f.text_field :selo %>
+  </p>
+  <p>
+    <%= f.label :serie, 'Serie' %><br />
+    <%= f.text_field :serie %>
+  </p>
+  <p>
+    <%= f.label :cliente %><br />
+    <% if Cliente.count > 0 %>
+      <%= f.select :cliente_id, Cliente.all.collect { |c| [c.nome_fantasia,c.id] }, :prompt => "" %>
+    <% else %>
+       <b> Nenhum cliente cadastrado.</b>
+    <% end %>
+    <%#= f.select :cliente_id, :size => 5 %>
+    <%#= text_field_tag 'nome_cliente', @pedido.cliente.razao_social, :disabled => true %>
+  </p>
+  <p>
+    <%= f.label :percentual_icms, 'Percentual do icms' %><br />
+    <%= f.text_field :percentual_icms %>
+  </p>
+  <p>
+    <%= f.label :emissao, 'Data de emissão' %><br />
+    <%= f.text_field :emissao %>
+  </p>
+  <p>
+    <%= f.label :total_mercadoria, 'Total da mercadoria' %><br />
+    <%= f.text_field :total_mercadoria %>
+  </p>
+  <p>
+    <%= f.label :valor_frete, 'Valor do frete' %><br />
+    <%= f.text_field :valor_frete %>
+  </p>
+  <p>
+    <%= f.label :cfop, 'Cfop' %><br />
+    <%= f.text_field :cfop %>
+  </p>
+  <p>
+    <%= f.label :natureza_operacao, 'Natureza da operação' %><br />
+    <%= f.text_field :natureza_operacao %>
+  </p>
+  <p>
+    <%= f.label :valor_ipi, 'Valor do ipi' %><br />
+    <%= f.text_field :valor_ipi %>
+  </p>
+  <p>
+    <%= f.label :valor_desconto, 'Valor do desconto' %><br />
+    <%= f.text_field :valor_desconto %>
+  </p>
+  <p>
+    <%= f.label :total_nota, 'Total da nota' %><br />
+    <%= f.text_field :total_nota %>
+  </p>
+  <p>
+    <%= f.label :status, 'Status' %><br />
+    <%= f.text_field :status %>
+    <!-- <%= f.select :status,[['Impressa','S'],['Não Impressa','N']] %> -->
+  </p>
+  <p>
+    <%= f.label :base_calculo_icms, 'Base de cálculo icms' %><br />
+    <%= f.text_field :base_calculo_icms %>
+  </p>
+  <p>
+    <%= f.label :valor_icms, 'Valor do icms' %><br />
+    <%= f.text_field :valor_icms %>
+  </p>
+  <p>
+    <%= f.label :qtde_volumes, 'Quantidade de volumes' %><br />
+    <%= f.text_field :qtde_volumes %>
+  </p>
+  <p>
+    <%= f.label :entrada, 'Data de entrada' %><br />
+    <%= f.calendar_date_select :entrada %>
+  </p>
+  <p>
+    <%= f.label :saida, 'Data de saída' %><br />
+    <%= f.calendar_date_select :saida %>
+  </p>
+  <p>
+    <%= f.label :transportadora_id, 'Transportadora' %><br />
+    <%= f.text_field :transportadora_id %>
+  </p>
+  <p>
+    <%= f.label :percentual_desconto, 'Percentual de desconto' %><br />
+    <%= f.text_field :percentual_desconto %>
+  </p>
+  <p>
+    <%= f.label :observacao, 'Observação' %><br />
+    <%= f.text_area :observacao %>
+  </p>
+  <p>
+    <%= f.label :base_calculo_icms_substituicao_tributaria, 'Base de cálculo icms substituição tributária' %><br />
+    <%= f.text_field :base_calculo_icms_substituicao_tributaria %>
+  </p>
+  <p>
+    <%= f.label :percentual_icms_substituicao_tributaria, 'Percentual do icms substituição tributária' %><br />
+    <%= f.text_field :percentual_icms_substituicao_tributaria %>
+  </p>
+  <p>
+    <%= f.label :valor_icms_substituicao_tributaria, 'Valor do icms substituição tributária' %><br />
+    <%= f.text_field :valor_icms_substituicao_tributaria %>
+  </p>
+

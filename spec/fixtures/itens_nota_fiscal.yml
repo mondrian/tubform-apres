@@ -1,0 +1,27 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  nota_fiscal_id: 1
+  produto_id: 1
+  unidade: MyString
+  quantidade: 1
+  valor_item: 9.99
+  valor_original: 9.99
+  situacao_tributaria: MyString
+  perc_icms: 9.99
+  perc_ipi: 9.99
+  peso_liquido: 9.99
+  codigo_emissao: MyString
+
+two:
+  nota_fiscal_id: 1
+  produto_id: 1
+  unidade: MyString
+  quantidade: 1
+  valor_item: 9.99
+  valor_original: 9.99
+  situacao_tributaria: MyString
+  perc_icms: 9.99
+  perc_ipi: 9.99
+  peso_liquido: 9.99
+  codigo_emissao: MyString

@@ -1,0 +1,26 @@
+development:
+  adapter: postgresql
+  database: rsig_development
+  host: localhost
+  username: postgres
+  password: postgres
+
+test: &TEST
+  adapter: postgresql
+  database: rsig_test
+  host: localhost
+  username: postgres
+  password: postgres
+
+production:
+  adapter: postgresql
+  database: rsig_production
+  host: localhost
+  username: postgres
+  password: postgres
+
+
+cucumber:
+  <<: *TEST
+cucumber:
+  <<: *TEST
