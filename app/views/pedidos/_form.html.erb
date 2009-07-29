@@ -84,13 +84,9 @@
 
     <td><%= f.text_field :nome_comprador %></td>
 	</tr>
-<table>
+
 </table>
-	<tr>
-    <td><%= f.label :observacao %><br /></td>
-    <td><%= f.text_area :observacao %></td>
-	</tr>
-</table>
+
 <table>
 	<tr>
     <td><%= f.label :endereco_entrega %></td>
@@ -157,6 +153,14 @@
     <% else %>
        <td><b> Nenhum funcionário cadastrado.</b></td>
     <% end %>
+	</tr>
+</table>
+<table>
+	<tr>
+    <td><%= f.label :observacao %><br /></td>
+  </tr>
+  <tr>
+    <td><%= f.text_area :observacao %></td>
 	</tr>
 </table>
 
