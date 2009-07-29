@@ -159,11 +159,11 @@ class PedidosController < ApplicationController
 
   def impressao
     @pedido = Pedido.find(params[:id])
-
-    respond_to do |format|
-      format.html # impressao.html.erb
-      format.xml  { render :xml => @pedido }
-    end
+    render :layout => false
+    #respond_to do |format|
+    #  format.html # impressao.html.erb
+    #  format.xml  { render :xml => @pedido }
+    #end
   end
 end
 
