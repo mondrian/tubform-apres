@@ -1,133 +1,165 @@
 <% form_for(@pedido, :html => {:name=>'form_pedidos', :id=>'form_pedidos'}) do |f| %>
   <%= f.error_messages %>
-  <p>
-    <%= f.label :tipo %>
-    <%= f.select :tipo,[['Interno','I'],['Externo','E']] %>
-  </p>
-  <p>
-    <%= f.label :cliente %><br />
+<table>
+	<tr>
+		<td><%= f.label :tipo %></td>
+
+    <td><%= f.label :cliente %></td>
+
+    <td><%#= f.select :cliente_id, :size => 5 %></td>
+
+  	<td><%= f.label :nosso_numero %></td>
+
+    <td><%= f.label :data, 'Data do pedido' %></td>
+
+    <td><%= f.label :previsao_entrega, 'Previsão de entrega' %></td>
+	</tr>
+	<tr>
+   	<td><%= f.select :tipo,[['Interno','I'],['Externo','E']] %></td>
+
     <% if Cliente.count > 0 %>
-      <%= f.select :cliente_id, Cliente.all.collect { |c| [c.nome_fantasia,c.id] }, :prompt => "" %>
+      <td><%= f.select :cliente_id, Cliente.all.collect { |c| [c.nome_fantasia,c.id] }, :prompt => "" %></td>
     <% else %>
-       <b> Nenhum cliente cadastrado.</b>
-    <% end %>
-    <%#= f.select :cliente_id, :size => 5 %>
-    <%#= text_field_tag 'nome_cliente', @pedido.cliente.razao_social, :disabled => true %>
-  </p>
-    <p>
-      <%= f.label :nosso_numero %><br />
-      <%= f.text_field :nosso_numero, :size => 10 %>
-    </p>
-  <p>
-    <%= f.label :data, 'Data do pedido' %><br />
-    <%= f.text_field :data, :size => 10 %>
-  </p>
-  <p>
-    <%= f.label :previsao_entrega, 'Previsão de entrega' %><br />
-    <%= f.text_field :previsao_entrega, :size => 10  %>
-  </p>
-  <p>
-    <%= f.label :entrega %><br />
-    <%= f.text_field :entrega, :size => 10  %>
-  </p>
-  <p>
-    <%= f.label :programacao %><br />
-    <%= f.text_field :programacao, :size => 10  %>
-  </p>
-  <p>
-    <%= f.label :plano_de_pagamento %><br />
-    <%= f.text_field :plano_de_pagamento %>
-  </p>
-  <p>
-    <%= f.label :vendedor %><br />
-    <%= f.text_field :vendedor_id %>
-    <% if Funcionario.count > 0 %>
-      <%= f.select :vendedor_id, Funcionario.all.collect { |c| [c.nome,c.id] }, :prompt => "" %>
-    <% else %>
-       <b> Nenhum vendedor cadastrado.</b>
+       <td><b> Nenhum cliente cadastrado.</b></td>
     <% end %>
 
-    <%#= f.text_field :vendedor_id, :size => 5 %>
-    <%#= text_field_tag 'nome', @pedido.funcionario.nome, :disabled => true %>
-  </p>
-  <p>
-    <%= f.label :valor %><br />
-    <%= f.text_field :valor, :size => 10 %>
-  </p>
-  <p>
-    <%= f.label :acrescimo %><br />
-    <%= f.text_field :acrescimo, :size => 5 %>
-  </p>
-  <p>
-    <%= f.label :transportadora %><br />
+    <td><%#= text_field_tag 'nome_cliente', @pedido.cliente.razao_social, :disabled => true %></td>
+
+    <td><%= f.text_field :nosso_numero, :size => 10 %></td>
+
+    <td><%= f.text_field :data, :size => 10 %></td>
+
+    <td><%= f.text_field :previsao_entrega, :size => 10  %></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+    <td><%= f.label :entrega %></td>
+
+    <td><%= f.label :programacao %></td>
+
+    <td><%= f.label :plano_de_pagamento %></td>
+
+   <td><%= f.label :vendedor %></td>
+	</tr>
+	<tr>
+    <td><%= f.text_field :entrega, :size => 10  %></td>
+
+    <td><%= f.text_field :programacao, :size => 10  %></td>
+
+    <td><%= f.text_field :plano_de_pagamento %></td>
+
+     <td><%= f.text_field :vendedor_id %></td>
+    <% if Funcionario.count > 0 %>
+      <td><%= f.select :vendedor_id, Funcionario.all.collect { |c| [c.nome,c.id] }, :prompt => "" %></td>
+    <% else %>
+       <td><b> Nenhum vendedor cadastrado.</b></td>
+    <% end %>
+
+    <td><%#= f.text_field :vendedor_id, :size => 5 %></td>
+    <td><%#= text_field_tag 'nome', @pedido.funcionario.nome, :disabled => true %></td>
+	</tr>
+</table>
+<table>
+	<tr>
+    <td><%= f.label :valor %></td>
+
+    <td><%= f.label :acrescimo %></td>
+
+    <td><%= f.label :transportadora %></td>
+
+    <td><%= f.label :comprador %><br /></td>
+	</tr>
+	<tr>
+    <td><%= f.text_field :valor, :size => 10 %></td>
+
+    <td><%= f.text_field :acrescimo, :size => 5 %></td>
+
     <% if Transportadora.count > 0 %>
-      <%= f.select :transportadora_id, Transportadora.all.collect { |c| [c.razao_social,c.id] }, :prompt => "" %>
+      <td><%= f.select :transportadora_id, Transportadora.all.collect { |c| [c.razao_social,c.id] }, :prompt => "" %></td>
     <% else %>
-       <b> Nenhuma transportadora cadastrada.</b>
+       <td><b> Nenhuma transportadora cadastrada.</b></td>
     <% end %>
-  </p>
-  <p>
-    <%= f.label :comprador %><br />
-    <%= f.text_field :nome_comprador %>
-  </p>
-  <p>
-    <%= f.label :observacao %><br />
-    <%= f.text_area :observacao %>
-  </p>
-  <p>
-    <%= f.label :endereco_entrega %><br />
-    <%= f.text_field :endereco_entrega %>
-  </p>
-  <p>
-    <%= f.label :minuta_id %><br />
-    <%= f.text_field :minuta_id %>
-  </p>
-  <p>
-    <%= f.label :area_id %><br />
-    <%= f.text_field :area_id, :size => 5 %>
-    <%#= text_field_tag 'descricao', @pedido.area.descricao, :disabled => true %>
-  </p>
-  <p>
-    <%= f.label :telemarketing_id %><br />
-    <%= f.text_field :telemarketing_id, :size => 5 %>
-    <%#= text_field_tag 'nome', @pedido.funcionario.nome, :disabled => true %>
-  </p>
-  <p>
-    <%= f.label :registro %><br />
-    <%= f.text_field :registro, :size => 10 %>
-  </p>
-  <p>
-    <%= f.label :empresa_id %><br />
-    <%= f.text_field :empresa_id %>
-  </p>
-  <p>
-    <%= f.label :status %><br />
-    <%= f.text_field :status %>
-  </p>
-  <p>
-    <%= f.label :status_estorno %><br />
-    <%= f.text_field :status_estorno %>
-  </p>
-  <p>
-    <%= f.label :operador_estorno_id %><br />
-    <%= f.text_field :operador_estorno_id, :size => 5 %>
 
-   <%#= text_field_tag 'nome', @pedido.funcionario.nome , :disabled => true %>
-  </p>
-  <p>
-    <%= f.label :venda_externa %><br />
-    <%= f.select :venda_externa,[['Sim','S'],['Não','N']] %>
-  </p>
-  <p>
-    <%= f.label :desconto_complementar %><br />
-    <%= f.text_field :desconto_complementar %>
-  </p>
-    <%= f.label :autorizador %><br />
+    <td><%= f.text_field :nome_comprador %></td>
+	</tr>
+<table>
+</table>
+	<tr>
+    <td><%= f.label :observacao %><br /></td>
+    <td><%= f.text_area :observacao %></td>
+	</tr>
+</table>
+<table>
+	<tr>
+    <td><%= f.label :endereco_entrega %></td>
+
+    <td><%= f.label :minuta_id %></td>
+
+    <td><%= f.label :area_id %></td>
+
+    <td><%= f.label :telemarketing_id %></td>
+
+    <td><%= f.label :registro %></td>
+	</tr>
+	<tr>
+    <td><%= f.text_field :endereco_entrega %></td>
+
+    <td><%= f.text_field :minuta_id %></td>
+
+    <td><%= f.text_field :area_id, :size => 5 %></td>
+    <td><%#= text_field_tag 'descricao', @pedido.area.descricao, :disabled => true %></td>
+
+    <td><%= f.text_field :telemarketing_id, :size => 5 %></td>
+    <td><%#= text_field_tag 'nome', @pedido.funcionario.nome, :disabled => true %></td>
+
+    <td><%= f.text_field :registro, :size => 10 %></td>
+	</tr>
+</table>
+<table>
+	<tr>
+    <td><%= f.label :empresa_id %></td>		
+
+    <td><%= f.label :status %><br /></td>
+
+    <td><%= f.label :status_estorno %><br /></td>
+
+    <td><%= f.label :operador_estorno_id %><br /></td>
+	</tr>
+	<tr>
+    <td><%= f.text_field :empresa_id %></td>
+
+    <td><%= f.text_field :status %></td>
+
+    <td><%= f.text_field :status_estorno %></td>
+
+    <td><%= f.text_field :operador_estorno_id, :size => 5 %></td>
+
+    <td><%#= text_field_tag 'nome', @pedido.funcionario.nome , :disabled => true %></td>
+	</tr>
+</table>
+<table>
+	<tr>
+    <td><%= f.label :venda_externa %><br /></td>
+
+    <td><%= f.label :desconto_complementar %><br /></td>
+
+    <td><%= f.label :autorizador %><br /></td>		
+	</tr>
+	<tr>
+    <td><%= f.select :venda_externa,[['Sim','S'],['Não','N']] %></td>
+
+    <td><%= f.text_field :desconto_complementar %></td>
+
     <% if Funcionario.count > 0 %>
-      <%= f.select :autorizador_id, Funcionario.all.collect { |c| [c.nome,c.id] }, :prompt => "" %>
+      <td><%= f.select :autorizador_id, Funcionario.all.collect { |c| [c.nome,c.id] }, :prompt => "" %></td>
     <% else %>
-       <b> Nenhum funcionário cadastrado.</b>
+       <td><b> Nenhum funcionário cadastrado.</b></td>
     <% end %>
+	</tr>
+</table>
+
   <p>
   <%= f.submit 'Salvar' %>
   </p>

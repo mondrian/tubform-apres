@@ -1,0 +1,97 @@
+<% form_for(@lancamento) do |f| %>
+  <%= f.error_messages %>
+
+<table>
+	<tr>
+    <td><%= f.label :tipo_operacao %></td>
+
+    <td><%= f.label :plano_de_conta_id %></td>
+
+    <td><%= f.label :doc_origem %></td>
+	</tr>
+	<tr>
+    <td><%= f.text_field :tipo_operacao %></td>
+
+    <td><%= f.text_field :plano_de_conta_id %></td>
+
+    <td><%= f.text_field :doc_origem %></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+    <td><%= f.label :historico %></td>
+	</tr>
+	<tr>
+    <td><%= f.text_area :historico %></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+    <td><%= f.label :data_movimento %></td>
+
+    <td><%= f.label :data_lancamento %></td>
+
+    <td><%= f.label :valor %></td>
+	</tr>
+	<tr>
+    <td><%= f.date_select :data_movimento %></td>
+
+    <td><%= f.date_select :data_lancamento %></td>
+
+    <td><%= f.text_field :valor %></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+    <td><%= f.label :nome_cheque %></td>
+
+    <td><%= f.label :operador_id %></td>
+
+    <td><%= f.label :serie_doc_origem %></td>
+	</tr>
+	<tr>
+    <td><%= f.text_field :nome_cheque %></td>
+
+    <td><%= f.text_field :operador_id %></td>
+
+    <td><%= f.text_field :serie_doc_origem %></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+    <td><%= f.label :banco_id %></td>
+
+    <td><%= f.label :cliente_id %></td>
+
+    <td><%= f.label :imprimiu_op %></td>
+	</tr>
+	<tr>
+    <td><%= f.text_field :banco_id %></td>
+
+    <td><%= f.text_field :cliente_id %></td>
+
+    <td><%= f.check_box :imprimiu_op %></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
+    <td><%= f.label :vendedor_id %></td>
+
+    <td><%= f.label :sequencia_movimento %></td>
+	</tr>
+	<tr>
+    <td><%= f.text_field :vendedor_id %></td>
+
+    <td><%= f.text_field :sequencia_movimento %></td>
+	</tr>
+</table>
+
+  <p>
+    <%= f.submit 'Create' %>
+  </p>
+<% end %>
