@@ -33083,3 +33083,1291 @@ Processing ImpressaoNotaController#imprime_nota (for 127.0.0.1 at 2009-07-29 09:
 Rendering impressao_nota/dados_nota
 Sending data Nota Fiscal Nro.: 25478.pdf
 Completed in 2737ms (View: 1, DB: 0) | 200 OK [http://localhost/impressao_nota/imprime_nota/1?method=post]
+  [4;36;1mSQL (23.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-07-30 09:56:28) [GET]
+
+ActionController::RoutingError (No route matches "/sinal_eletronico/indez" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 09:56:32) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (40.3ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (126.7ms)
+Rendered menus/_menu (26.8ms)
+Completed in 827ms (View: 260, DB: 41) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 09:57:44) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (7.2ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (161.6ms)
+Rendered menus/_menu (0.8ms)
+Completed in 312ms (View: 226, DB: 8) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 09:57:55) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (6.0ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (116.9ms)
+Rendered menus/_menu (0.7ms)
+Completed in 252ms (View: 166, DB: 7) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 09:58:05) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (7.0ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (91.4ms)
+Rendered menus/_menu (0.7ms)
+Completed in 268ms (View: 164, DB: 8) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 09:58:33) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.3ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (162.9ms)
+Rendered menus/_menu (0.8ms)
+Completed in 316ms (View: 230, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 09:59:14) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.3ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (93.4ms)
+Rendered menus/_menu (0.7ms)
+Completed in 229ms (View: 168, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:00:26) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.6ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (78.5ms)
+Rendered menus/_menu (0.8ms)
+Completed in 239ms (View: 166, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:01:01) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (4.5ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (116.2ms)
+Rendered menus/_menu (0.8ms)
+Completed in 312ms (View: 211, DB: 6) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (3.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:03:49) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (9.0ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (105.7ms)
+Rendered menus/_menu (0.8ms)
+Completed in 276ms (View: 187, DB: 13) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (6.7ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (2.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:04:11) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+ERROR: compiling _run_erb_app47views47clientes47_form46html46erb_locals_f_form_object RAISED compile error
+/home/juliana/Workspace/tubform-apres/app/views/clientes/_form.html.erb:86: syntax error, unexpected tINTEGER, expecting kDO or '{' or '('
+....text_field :area_id, size 100 ).to_s); @output_buffer.conca...
+                              ^
+Function body:           def _run_erb_app47views47clientes47_form46html46erb_locals_f_form_object(local_assigns)
+            old_output_buffer = output_buffer;object = local_assigns[:object];f = local_assigns[:f];form = local_assigns[:form];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "\n\n<table width=\"636\">\n\n    <tr>\n      <td>"
+
+
+
+
+; @output_buffer.concat(( f.label "Tipo de Cliente:" ).to_s); @output_buffer.concat "</td>\n      <td><label for=\"cpf\">CPF: </label></td>\n      <td><label for=\"cnpj\">CNPJ: </label></td>\n    </tr>\n\n    <tr>\n      <td>"
+
+
+
+
+
+; @output_buffer.concat(( f.select :tipo_cliente,[['Pessoa Física','F'],['Pessoa Jurídica','J']] ).to_s); @output_buffer.concat "</td  >\n      <td>"
+; @output_buffer.concat(( f.text_field :cpf, :onkeypress => 'mascara(this, cpf_cnpj)', :size => 14, :maxlength => 14 ).to_s); @output_buffer.concat "</td>        \n      <td>"
+; @output_buffer.concat(( f.text_field :cnpj, :onkeypress => 'mascara(this, cpf_cnpj)', :size => 18, :maxlength => 18  ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td><label for=\"razao_social\">Raz\303\243o Social: </label></td>\n      <td><label for= \"nome_fantasia\">Nome do Cliente: </label></td>\n      <td><label for=\"documento\">RG / Inscri\303\247\303\243o Estadual</label></td>\n    </tr>\n    <tr>\n      <td>"
+
+
+
+
+
+
+
+; @output_buffer.concat(( f.text_field :razao_social ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :nome_fantasia ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :documento ).to_s); @output_buffer.concat " </td>\n    </tr>\n <table>\n    <tr>\n      <td>"
+
+
+
+; @output_buffer.concat(( f.label :endereco ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :Bairro ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :complemento ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.text_field :endereco ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :bairro ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :complemento ).to_s); @output_buffer.concat "</td>\n    </tr>\n</table>\n<table width=\"636\">\n    <tr>\n      <td>"
+
+
+
+
+; @output_buffer.concat(( f.label :referencia ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :cep ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label "Estado / Cidade:" ).to_s); @output_buffer.concat "</td>            \n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.text_field :referencia ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :cep, :onkeypress => 'mascara(this, cep)', :size => 14 ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.select :uf, Uf.find(:all).collect { |p| [ p.descricao, p.uf ] }, :include_blank => true ).to_s); @output_buffer.concat "\n              <div id=\"div_cidade\">\n                "
+
+;  if !@cliente.cidade.nil? then ; @output_buffer.concat "\n                  "
+; @output_buffer.concat((  select_tag('cliente[cidade_id]', "<option>#{@cliente.cidade.descricao}</option>", :disabled => true) ).to_s); @output_buffer.concat "\n                "
+;  end ; @output_buffer.concat "\n              </div>\n      </td>\n    </tr>\n </table>\n<table width=\"636\">\n    <tr>\n      <td>"
+
+
+
+
+
+
+; @output_buffer.concat(( f.label :fone_pessoal ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :fone_comercial ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :fone_celular ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :email ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.text_field :fone_pessoal, :onkeypress => 'mascara(this, telefone)', :size => 12 ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :fone_comercial, :onkeypress => 'mascara(this, telefone)', :size => 12 ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :fone_celular, :onkeypress => 'mascara(this, telefone)', :size => 12  ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :email, :onkeypress => 'mascara(this, email)'  ).to_s); @output_buffer.concat "</td>\n    </tr>\n</table>\n<table width=\"636\">\n    <tr>\n      <td>"
+
+
+
+
+; @output_buffer.concat(( f.label :endereco_entrega ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :regiao_entrega_id ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :cidade_entrega_id ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :area_id ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.text_field :endereco_entrega ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :regiao_entrega_id ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.select :uf, Uf.find(:all).collect { |p| [ p.descricao, p.uf ] }, :include_blank => true ).to_s); @output_buffer.concat "\n              <div id=\"div_cidade\">\n                "
+
+;  if !@cliente.cidade.nil? then ; @output_buffer.concat "\n                  "
+; @output_buffer.concat((  select_tag('cliente[cidade_id]', "<option>#{@cliente.cidade.descricao}</option>", :disabled => true) ).to_s); @output_buffer.concat "\n                "
+;  end ; @output_buffer.concat "\n              </div></td>\n      <td>"
+
+; @output_buffer.concat(( f.text_field :area_id, size 100 ).to_s); @output_buffer.concat "</td>\n    </tr>\n</table>\n<table width=\"636\">\n    <tr>      \n      <td>"
+
+
+
+
+; @output_buffer.concat(( f.label :referencias_bancaria ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :referencias_comerciais ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.text_area :observacao ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_area :info_serasa ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.label :observacao ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :info_serasa ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.text_area :referencias_bancaria ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_area :referencias_comerciais ).to_s); @output_buffer.concat "</td>\n</table>\n<table width=\"636\">\n    <tr>\n      <td>"
+
+
+
+; @output_buffer.concat(( f.label :data_nascimento ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :nome_comprador ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :vendas_suspensas ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.calendar_date_select :data_nascimento ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :nome_comprador ).to_s); @output_buffer.concat "<td>\n      <td>"
+; @output_buffer.concat(( f.select :vendas_suspensas,[['Sim',true],['Não',false]] ).to_s); @output_buffer.concat "</td>\n    </tr>      \n</table> \n<table>     \n    <tr>\n      <td>"
+
+
+
+
+; @output_buffer.concat(( f.label :observacao_suspensao_venda ).to_s); @output_buffer.concat "</td>\n      \n    </tr>\n    <tr>\n      <td>"
+
+
+
+; @output_buffer.concat(( f.text_area :observacao_suspensao_venda ).to_s); @output_buffer.concat " </td>\n      \n    </tr>\n</table>  \n<table width=\"636\">\n    <tr>\n      <td>"
+
+
+
+
+
+; @output_buffer.concat(( f.label :limite_credito ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :status ).to_s); @output_buffer.concat "</td>\n      <td><label for=\"prazo_medio_maximo\">Prazo M\303\251dio:</label></td>\n      <td>"
+
+; @output_buffer.concat(( f.label :data_inclusao_prazo_medio ).to_s); @output_buffer.concat "</td>\n   \n    </tr>\n    <tr>\n      <td>"
+
+
+
+; @output_buffer.concat(( f.text_field :limite_credito, :onkeypress => 'mascara(this, valor)' ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.select :status,[['ATIVO','A'],['INATIVO','I']] ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :prazo_medio_maximo ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.calendar_date_select :data_inclusao_prazo_medio ).to_s); @output_buffer.concat(( observe_field 'cliente_uf',
+            :update => 'div_cidade',
+            :url => {:action => 'cidade'},
+            :with => :uf ).to_s); @output_buffer.concat "\n      </td>\n      \n    </tr>\n</table>\n\n        \n\n\n        \n                    \n\n      \n"
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/juliana/Workspace/tubform-apres/app/views/clientes/_form.html.erb:159:in `compile!'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:20:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:19:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/template.rb:194:in `render_template'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/partials.rb:184:in `render_partial'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/base.rb:262:in `render'
+/home/juliana/Workspace/tubform-apres/app/views/clientes/new.html.erb:4:in `_run_erb_app47views47clientes47new46html46erb'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/helpers/form_helper.rb:490:in `fields_for'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/helpers/form_helper.rb:282:in `form_for'
+/home/juliana/Workspace/tubform-apres/app/views/clientes/new.html.erb:1:in `_run_erb_app47views47clientes47new46html46erb'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable.rb:34:in `send'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable.rb:34:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/base.rb:301:in `with_template'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable.rb:30:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/template.rb:194:in `render_template'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/base.rb:343:in `_render_with_layout'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/base.rb:257:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:1241:in `render_for_file'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:943:in `render_without_benchmark'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:135:in `send'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:135:in `custom'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:179:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:179:in `respond'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:173:in `each'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:173:in `respond'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/juliana/Workspace/tubform-apres/app/controllers/clientes_controller.rb:29:in `new'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:1322:in `send'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:1322:in `perform_action_without_filters'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/flash.rb:141:in `perform_action'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:523:in `send'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:523:in `process_without_filters'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:433:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:111:in `_call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:82:in `initialize'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activerecord/lib/active_record/query_cache.rb:9:in `cache'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activerecord/lib/active_record/query_cache.rb:28:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/rewindable_input.rb:25:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/reloader.rb:9:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/failsafe.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:106:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/home/juliana/Workspace/tubform-apres/vendor/rails/railties/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/juliana/Workspace/tubform-apres/app/views/clientes/_form.html.erb:86: syntax error, unexpected tINTEGER, expecting kDO or '{' or '('
+....text_field :area_id, size 100 ).to_s); @output_buffer.conca...
+                              ^) on line #86 of app/views/clientes/_form.html.erb:
+83:                   <%=  select_tag('cliente[cidade_id]', "<option>#{@cliente.cidade.descricao}</option>", :disabled => true) %>
+84:                 <% end %>
+85:               </div></td>
+86:       <td><%= f.text_field :area_id, size 100 %></td>
+87:     </tr>
+88: </table>
+89: <table width="636">
+
+    app/views/clientes/_form.html.erb:159:in `compile!'
+    app/views/clientes/new.html.erb:4
+    app/views/clientes/new.html.erb:1
+    app/controllers/clientes_controller.rb:29:in `new'
+
+Rendered rescues/_trace (208.6ms)
+Rendered rescues/_request_and_response (2.7ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:04:25) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (6.3ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (115.2ms)
+Rendered menus/_menu (0.8ms)
+Completed in 325ms (View: 215, DB: 7) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:04:45) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (4.4ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (130.3ms)
+Rendered menus/_menu (4.7ms)
+Completed in 324ms (View: 213, DB: 5) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:05:16) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.4ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (69.1ms)
+Rendered menus/_menu (0.8ms)
+Completed in 166ms (View: 109, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:05:45) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (2.0ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (71.0ms)
+Rendered menus/_menu (1.6ms)
+Completed in 201ms (View: 140, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:06:39) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.7ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (56.5ms)
+Rendered menus/_menu (0.8ms)
+Completed in 173ms (View: 101, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:06:53) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (8.4ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (85.6ms)
+Rendered menus/_menu (0.7ms)
+Completed in 259ms (View: 179, DB: 9) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:07:41) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (2.8ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (53.7ms)
+Rendered menus/_menu (0.7ms)
+Completed in 169ms (View: 107, DB: 4) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:08:23) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.6ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (81.5ms)
+Rendered menus/_menu (0.8ms)
+Completed in 256ms (View: 175, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:09:30) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.2ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (64.7ms)
+Rendered menus/_menu (0.7ms)
+Completed in 157ms (View: 108, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (14.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:11:18) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (8.9ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (126.6ms)
+Rendered menus/_menu (0.7ms)
+Completed in 272ms (View: 183, DB: 23) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:14:57) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.2ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (69.1ms)
+Rendered menus/_menu (0.8ms)
+Completed in 329ms (View: 112, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:17:02) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (2.5ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (79.4ms)
+Rendered menus/_menu (0.7ms)
+Completed in 231ms (View: 146, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:17:23) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (3.2ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (88.5ms)
+Rendered menus/_menu (0.8ms)
+Completed in 255ms (View: 171, DB: 4) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:20:36) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.7ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (104.6ms)
+Rendered menus/_menu (0.9ms)
+Completed in 395ms (View: 168, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (4.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:20:57) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.2ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (113.0ms)
+Rendered menus/_menu (0.7ms)
+Completed in 249ms (View: 176, DB: 6) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:23:20) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (11.3ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (127.7ms)
+Rendered menus/_menu (0.8ms)
+Completed in 282ms (View: 200, DB: 12) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:26:04) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (11.5ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (92.4ms)
+Rendered menus/_menu (7.4ms)
+Completed in 451ms (View: 176, DB: 12) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:26:14) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (2.2ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (85.8ms)
+Rendered menus/_menu (0.7ms)
+Completed in 256ms (View: 166, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:26:30) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.2ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (86.1ms)
+Rendered menus/_menu (0.8ms)
+Completed in 226ms (View: 153, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:26:40) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.2ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (91.6ms)
+Rendered menus/_menu (0.9ms)
+Completed in 459ms (View: 170, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (5.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:27:17) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (23.6ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (133.5ms)
+Rendered menus/_menu (0.7ms)
+Completed in 305ms (View: 183, DB: 30) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:27:45) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.5ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (91.6ms)
+Rendered menus/_menu (0.8ms)
+Completed in 245ms (View: 155, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:28:14) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (4.2ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (116.6ms)
+Rendered menus/_menu (0.9ms)
+Completed in 470ms (View: 193, DB: 5) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (2.7ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:28:32) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (2.0ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (151.7ms)
+Rendered menus/_menu (2.9ms)
+Completed in 337ms (View: 244, DB: 5) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:28:41) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.5ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (121.7ms)
+Rendered menus/_menu (0.8ms)
+Completed in 294ms (View: 196, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.6ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:29:42) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (5.5ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (123.8ms)
+Rendered menus/_menu (0.9ms)
+Completed in 508ms (View: 414, DB: 7) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (9.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:30:08) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (9.8ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (130.7ms)
+Rendered menus/_menu (17.3ms)
+Completed in 339ms (View: 225, DB: 20) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:30:56) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (7.6ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (109.3ms)
+Rendered menus/_menu (0.8ms)
+Completed in 278ms (View: 194, DB: 8) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:37:59) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.5ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (68.6ms)
+Rendered menus/_menu (0.9ms)
+Completed in 398ms (View: 314, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:42:10) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (2.2ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (120.6ms)
+Rendered menus/_menu (11.0ms)
+Completed in 276ms (View: 192, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:42:28) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (2.9ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (97.6ms)
+Rendered menus/_menu (1.0ms)
+Completed in 253ms (View: 167, DB: 4) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.0ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:44:31) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.3ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (210.7ms)
+Rendered menus/_menu (32.9ms)
+Completed in 353ms (View: 290, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:45:06) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (2.0ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (110.9ms)
+Rendered menus/_menu (0.7ms)
+Completed in 249ms (View: 178, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (3.2ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:46:58) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (5.4ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (93.8ms)
+Rendered menus/_menu (8.6ms)
+Completed in 273ms (View: 176, DB: 9) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (8.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:47:39) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.5ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (375.7ms)
+Rendered menus/_menu (0.9ms)
+Completed in 543ms (View: 441, DB: 10) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:49:56) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+ERROR: compiling _run_erb_app47views47clientes47_form46html46erb_locals_f_form_object RAISED compile error
+/home/juliana/Workspace/tubform-apres/app/views/clientes/_form.html.erb:93: syntax error, unexpected ':', expecting ')'
+...cat(( f.text_area, cols="30" :observacao ).to_s); @output_bu...
+                              ^
+Function body:           def _run_erb_app47views47clientes47_form46html46erb_locals_f_form_object(local_assigns)
+            old_output_buffer = output_buffer;object = local_assigns[:object];f = local_assigns[:f];form = local_assigns[:form];;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "\n\n<table width=\"500\">\n\n    <tr>\n      <td>"
+
+
+
+
+; @output_buffer.concat(( f.label "Tipo de Cliente:" ).to_s); @output_buffer.concat "</td>\n      <td><label for=\"cpf\">CPF: </label></td>\n      <td><label for=\"cnpj\">CNPJ: </label></td>\n    </tr>\n\n    <tr>\n      <td>"
+
+
+
+
+
+; @output_buffer.concat(( f.select :tipo_cliente,[['Pessoa Física','F'],['Pessoa Jurídica','J']] ).to_s); @output_buffer.concat "</td  >\n      <td>"
+; @output_buffer.concat(( f.text_field :cpf, :onkeypress => 'mascara(this, cpf_cnpj)', :size => 14, :maxlength => 14 ).to_s); @output_buffer.concat "</td>        \n      <td>"
+; @output_buffer.concat(( f.text_field :cnpj, :onkeypress => 'mascara(this, cpf_cnpj)', :size => 18, :maxlength => 18  ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td><label for=\"razao_social\">Raz\303\243o Social: </label></td>\n      <td><label for= \"nome_fantasia\">Nome do Cliente: </label></td>\n      <td><label for=\"documento\">RG / Inscri\303\247\303\243o Estadual</label></td>\n    </tr>\n    <tr>\n      <td>"
+
+
+
+
+
+
+
+; @output_buffer.concat(( f.text_field :razao_social, :size => 30 ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :nome_fantasia, :size => 30 ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :documento, :size => 30 ).to_s); @output_buffer.concat " </td>\n    </tr>\n <table>\n    <tr>\n      <td>"
+
+
+
+; @output_buffer.concat(( f.label :endereco ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :Bairro ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :complemento ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.text_field :endereco ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :bairro ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :complemento ).to_s); @output_buffer.concat "</td>\n    </tr>\n</table>\n<table width=\"636\">\n    <tr>\n      <td>"
+
+
+
+
+; @output_buffer.concat(( f.label :referencia ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :cep ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label "Estado / Cidade:" ).to_s); @output_buffer.concat "</td>            \n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.text_field :referencia, :size => "35" ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :cep, :onkeypress => 'mascara(this, cep)', :size => 14 ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.select :uf, Uf.find(:all).collect { |p| [ p.descricao, p.uf ] }, :include_blank => true ).to_s); @output_buffer.concat "\n              <div id=\"div_cidade\">\n                "
+
+;  if !@cliente.cidade.nil? then ; @output_buffer.concat "\n                  "
+; @output_buffer.concat((  select_tag('cliente[cidade_id]', "<option>#{@cliente.cidade.descricao}</option>", :disabled => true) ).to_s); @output_buffer.concat "\n                "
+;  end ; @output_buffer.concat "\n              </div>\n      </td>\n    </tr>\n </table>\n<table width=\"636\">\n    <tr>\n      <td width=\"100\">"
+
+
+
+
+
+
+; @output_buffer.concat(( f.label :fone_pessoal ).to_s); @output_buffer.concat "</td>\n      <td width=\"100\">"
+; @output_buffer.concat(( f.label :fone_comercial ).to_s); @output_buffer.concat "</td>\n      <td width=\"100\">"
+; @output_buffer.concat(( f.label :fone_celular ).to_s); @output_buffer.concat "</td>\n      <td width=\"100\">"
+; @output_buffer.concat(( f.label :email ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td width=\"100\">"
+
+
+; @output_buffer.concat(( f.text_field :fone_pessoal, :onkeypress => 'mascara(this, telefone)', :size => 12 ).to_s); @output_buffer.concat "</td>\n      <td width=\"100\">"
+; @output_buffer.concat(( f.text_field :fone_comercial, :onkeypress => 'mascara(this, telefone)', :size => 12 ).to_s); @output_buffer.concat "</td>\n      <td width=\"100\">"
+; @output_buffer.concat(( f.text_field :fone_celular, :onkeypress => 'mascara(this, telefone)', :size => 12  ).to_s); @output_buffer.concat "</td>\n      <td width=\"100\">"
+; @output_buffer.concat(( f.text_field :email, :onkeypress => 'mascara(this, email)'  ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.label :endereco_entrega ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :regiao_entrega_id ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :cidade_entrega_id ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :area_id ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.text_field :endereco_entrega, :size=> "25" ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :regiao_entrega_id, :size=> "20" ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.select :uf, Uf.find(:all).collect { |p| [ p.descricao, p.uf ] }, :include_blank => true, :size => 50 ).to_s); @output_buffer.concat "\n              <div id=\"div_cidade\">\n                "
+
+;  if !@cliente.cidade.nil? then ; @output_buffer.concat "\n                  "
+; @output_buffer.concat((  select_tag('cliente[cidade_id]', "<option>#{@cliente.cidade.descricao}</option>", :disabled => true) ).to_s); @output_buffer.concat "\n                "
+;  end ; @output_buffer.concat "\n              </div></td>\n      <td>"
+
+; @output_buffer.concat(( f.text_field :area_id, :size => 30 ).to_s); @output_buffer.concat "</td>\n    </tr>\n</table>\n<table width=\"636\">\n    <tr>      \n      <td>"
+
+
+
+
+; @output_buffer.concat(( f.label :referencias_bancaria ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :referencias_comerciais ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.text_area, cols="30" :observacao ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_area :info_serasa ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.label :observacao ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :info_serasa ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.text_area :referencias_bancaria ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_area :referencias_comerciais ).to_s); @output_buffer.concat "</td>\n    <tr>\n      <td>"
+
+; @output_buffer.concat(( f.label :data_nascimento ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :nome_comprador ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :vendas_suspensas ).to_s); @output_buffer.concat "</td>\n    </tr>\n    <tr>\n      <td>"
+
+
+; @output_buffer.concat(( f.calendar_date_select :data_nascimento ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :nome_comprador ).to_s); @output_buffer.concat "<td>\n      <td>"
+; @output_buffer.concat(( f.select :vendas_suspensas,[['Sim',true],['Não',false]] ).to_s); @output_buffer.concat "</td>\n    </tr>      \n</table> \n<table>     \n    <tr>\n      <td>"
+
+
+
+
+; @output_buffer.concat(( f.label :observacao_suspensao_venda ).to_s); @output_buffer.concat "</td>\n      \n    </tr>\n    <tr>\n      <td>"
+
+
+
+; @output_buffer.concat(( f.text_area :observacao_suspensao_venda ).to_s); @output_buffer.concat " </td>\n      \n    </tr>\n</table>  \n<table width=\"636\">\n    <tr>\n      <td>"
+
+
+
+
+
+; @output_buffer.concat(( f.label :limite_credito ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.label :status ).to_s); @output_buffer.concat "</td>\n      <td><label for=\"prazo_medio_maximo\">Prazo M\303\251dio:</label></td>\n      <td>"
+
+; @output_buffer.concat(( f.label :data_inclusao_prazo_medio ).to_s); @output_buffer.concat "</td>\n   \n    </tr>\n    <tr>\n      <td>"
+
+
+
+; @output_buffer.concat(( f.text_field :limite_credito, :onkeypress => 'mascara(this, valor)' ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.select :status,[['ATIVO','A'],['INATIVO','I']] ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.text_field :prazo_medio_maximo ).to_s); @output_buffer.concat "</td>\n      <td>"
+; @output_buffer.concat(( f.calendar_date_select :data_inclusao_prazo_medio ).to_s); @output_buffer.concat(( observe_field 'cliente_uf',
+            :update => 'div_cidade',
+            :url => {:action => 'cidade'},
+            :with => :uf ).to_s); @output_buffer.concat "\n      </td>\n      \n    </tr>\n</table>\n\n        \n\n\n        \n                    \n\n      \n"
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /home/juliana/Workspace/tubform-apres/app/views/clientes/_form.html.erb:155:in `compile!'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable.rb:61:in `compile'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable.rb:28:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:20:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:26:in `benchmark'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:19:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/template.rb:194:in `render_template'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable_partial.rb:44:in `render_partial'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/partials.rb:184:in `render_partial'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/base.rb:262:in `render'
+/home/juliana/Workspace/tubform-apres/app/views/clientes/new.html.erb:4:in `_run_erb_app47views47clientes47new46html46erb'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/helpers/form_helper.rb:490:in `fields_for'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/helpers/form_helper.rb:282:in `form_for'
+/home/juliana/Workspace/tubform-apres/app/views/clientes/new.html.erb:1:in `_run_erb_app47views47clientes47new46html46erb'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable.rb:34:in `send'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable.rb:34:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/base.rb:301:in `with_template'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/renderable.rb:30:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/template.rb:194:in `render_template'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/base.rb:260:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/base.rb:343:in `_render_with_layout'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_view/base.rb:257:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:1241:in `render_for_file'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:943:in `render_without_benchmark'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:51:in `render'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:135:in `send'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:135:in `custom'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:179:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:179:in `respond'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:173:in `each'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:173:in `respond'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/mime_responds.rb:107:in `respond_to'
+/home/juliana/Workspace/tubform-apres/app/controllers/clientes_controller.rb:29:in `new'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:1322:in `send'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:1322:in `perform_action_without_filters'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/filters.rb:617:in `call_filters'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activesupport/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/flash.rb:141:in `perform_action'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:523:in `send'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:523:in `process_without_filters'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/filters.rb:606:in `process'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:391:in `process'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/base.rb:386:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/routing/route_set.rb:433:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:111:in `_call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:82:in `initialize'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activerecord/lib/active_record/query_cache.rb:29:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activerecord/lib/active_record/query_cache.rb:9:in `cache'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activerecord/lib/active_record/query_cache.rb:28:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/activerecord/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/params_parser.rb:15:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/rewindable_input.rb:25:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/session/cookie_store.rb:93:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/reloader.rb:9:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/failsafe.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/actionpack/lib/action_controller/dispatcher.rb:106:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/railties/lib/rails/rack/static.rb:31:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/home/juliana/Workspace/tubform-apres/vendor/rails/railties/lib/rails/rack/log_tailer.rb:17:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/usr/lib/ruby/gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/home/juliana/Workspace/tubform-apres/vendor/rails/railties/lib/commands/server.rb:111
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/usr/local/lib/site_ruby/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/home/juliana/Workspace/tubform-apres/app/views/clientes/_form.html.erb:93: syntax error, unexpected ':', expecting ')'
+...cat(( f.text_area, cols="30" :observacao ).to_s); @output_bu...
+                              ^) on line #93 of app/views/clientes/_form.html.erb:
+90:       <td><%= f.label :referencias_comerciais %></td>
+91:     </tr>
+92:     <tr>
+93:       <td><%= f.text_area, cols="30" :observacao %></td>
+94:       <td><%= f.text_area :info_serasa %></td>
+95:     </tr>
+96:     <tr>
+
+    app/views/clientes/_form.html.erb:155:in `compile!'
+    app/views/clientes/new.html.erb:4
+    app/views/clientes/new.html.erb:1
+    app/controllers/clientes_controller.rb:29:in `new'
+
+Rendered rescues/_trace (406.7ms)
+Rendered rescues/_request_and_response (0.6ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (2.1ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:51:33) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (8.9ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (100.5ms)
+Rendered menus/_menu (0.7ms)
+Completed in 230ms (View: 155, DB: 11) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:51:58) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.6ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (61.4ms)
+Rendered menus/_menu (0.8ms)
+Completed in 234ms (View: 144, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:52:12) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.3ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (54.1ms)
+Rendered menus/_menu (0.7ms)
+Completed in 156ms (View: 103, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.2ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:53:49) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (6.0ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (95.1ms)
+Rendered menus/_menu (4.0ms)
+Completed in 318ms (View: 207, DB: 8) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (2.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:54:23) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (2.4ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (122.5ms)
+Rendered menus/_menu (0.8ms)
+Completed in 339ms (View: 245, DB: 5) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:55:05) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.2ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (60.0ms)
+Rendered menus/_menu (0.7ms)
+Completed in 146ms (View: 101, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:55:31) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.3ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (81.7ms)
+Rendered menus/_menu (0.8ms)
+Completed in 215ms (View: 144, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:55:54) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.3ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (51.4ms)
+Rendered menus/_menu (0.9ms)
+Completed in 207ms (View: 106, DB: 2) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:56:14) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.5ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (64.7ms)
+Rendered menus/_menu (0.7ms)
+Completed in 201ms (View: 141, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:56:25) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (8.5ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (252.8ms)
+Rendered menus/_menu (0.9ms)
+Completed in 579ms (View: 404, DB: 9) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:56:43) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (1.8ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (63.4ms)
+Rendered menus/_menu (0.8ms)
+Completed in 186ms (View: 98, DB: 3) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:57:20) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (10.8ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (223.5ms)
+Rendered menus/_menu (0.7ms)
+Completed in 577ms (View: 394, DB: 12) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:57:47) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (33.3ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (243.3ms)
+Rendered menus/_menu (6.8ms)
+Completed in 594ms (View: 416, DB: 35) | 200 OK [http://localhost/clientes/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing ClientesController#new (for 127.0.0.1 at 2009-07-30 10:58:29) [GET]
+Rendering template within layouts/blue
+Rendering clientes/new
+  [4;36;1mUf Load (12.6ms)[0m   [0;1mSELECT * FROM "ufs" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "ufs" [0m
+Rendered clientes/_form (95.3ms)
+Rendered menus/_menu (0.8ms)
+Completed in 222ms (View: 139, DB: 14) | 200 OK [http://localhost/clientes/new]

@@ -1,5 +1,7 @@
 
-<table> 
+
+<table width="500">
+
     <tr>
       <td><%= f.label "Tipo de Cliente:" %></td>
       <td><label for="cpf">CPF: </label></td>
@@ -17,9 +19,9 @@
       <td><label for="documento">RG / Inscrição Estadual</label></td>
     </tr>
     <tr>
-      <td><%= f.text_field :razao_social %></td>
-      <td><%= f.text_field :nome_fantasia %></td>
-      <td><%= f.text_field :documento %> </td>
+      <td><%= f.text_field :razao_social, :size => 30 %></td>
+      <td><%= f.text_field :nome_fantasia, :size => 30 %></td>
+      <td><%= f.text_field :documento, :size => 30 %> </td>
     </tr>
  <table>
     <tr>
@@ -33,14 +35,14 @@
       <td><%= f.text_field :complemento %></td>
     </tr>
 </table>
-<table>
+<table width="636">
     <tr>
       <td><%= f.label :referencia %></td>
       <td><%= f.label :cep %></td>
       <td><%= f.label "Estado / Cidade:" %></td>            
     </tr>
     <tr>
-      <td><%= f.text_field :referencia %></td>
+      <td><%= f.text_field :referencia, :size => "35" %></td>
       <td><%= f.text_field :cep, :onkeypress => 'mascara(this, cep)', :size => 14 %></td>
       <td><%= f.select :uf, Uf.find(:all).collect { |p| [ p.descricao, p.uf ] }, :include_blank => true %>
               <div id="div_cidade">
@@ -51,21 +53,19 @@
       </td>
     </tr>
  </table>
- <table>
+<table width="636">
     <tr>
-      <td><%= f.label :fone_pessoal %></td>
-      <td><%= f.label :fone_comercial %></td>
-      <td><%= f.label :fone_celular %></td>
-      <td><%= f.label :email %></td>
+      <td width="100"><%= f.label :fone_pessoal %></td>
+      <td width="100"><%= f.label :fone_comercial %></td>
+      <td width="100"><%= f.label :fone_celular %></td>
+      <td width="100"><%= f.label :email %></td>
     </tr>
     <tr>
-      <td><%= f.text_field :fone_pessoal, :onkeypress => 'mascara(this, telefone)', :size => 12 %></td>
-      <td><%= f.text_field :fone_comercial, :onkeypress => 'mascara(this, telefone)', :size => 12 %></td>
-      <td><%= f.text_field :fone_celular, :onkeypress => 'mascara(this, telefone)', :size => 12  %></td>
-      <td><%= f.text_field :email, :onkeypress => 'mascara(this, email)'  %></td>
+      <td width="100"><%= f.text_field :fone_pessoal, :onkeypress => 'mascara(this, telefone)', :size => 12 %></td>
+      <td width="100"><%= f.text_field :fone_comercial, :onkeypress => 'mascara(this, telefone)', :size => 12 %></td>
+      <td width="100"><%= f.text_field :fone_celular, :onkeypress => 'mascara(this, telefone)', :size => 12  %></td>
+      <td width="100"><%= f.text_field :email, :onkeypress => 'mascara(this, email)'  %></td>
     </tr>
-<table>
-<table>
     <tr>
       <td><%= f.label :endereco_entrega %></td>
       <td><%= f.label :regiao_entrega_id %></td>
@@ -73,18 +73,18 @@
       <td><%= f.label :area_id %></td>
     </tr>
     <tr>
-      <td><%= f.text_field :endereco_entrega %></td>
-      <td><%= f.text_field :regiao_entrega_id %></td>
-      <td><%= f.select :uf, Uf.find(:all).collect { |p| [ p.descricao, p.uf ] }, :include_blank => true %>
+      <td><%= f.text_field :endereco_entrega, :size=> "25" %></td>
+      <td><%= f.text_field :regiao_entrega_id, :size=> "20" %></td>
+      <td><%= f.select :uf, Uf.find(:all).collect { |p| [ p.descricao, p.uf ] }, :include_blank => true, :size => 50 %>
               <div id="div_cidade">
                 <% if !@cliente.cidade.nil? then %>
                   <%=  select_tag('cliente[cidade_id]', "<option>#{@cliente.cidade.descricao}</option>", :disabled => true) %>
                 <% end %>
               </div></td>
-      <td><%= f.text_field :area_id %></td>
+      <td><%= f.text_field :area_id, :size => 30 %></td>
     </tr>
 </table>
-<table> 
+<table width="636">
     <tr>      
       <td><%= f.label :referencias_bancaria %></td>
       <td><%= f.label :referencias_comerciais %></td>
@@ -101,19 +101,19 @@
       <td><%= f.text_area :referencias_bancaria %></td>
       <td><%= f.text_area :referencias_comerciais %></td>
 </table>
-<table>
+<table width="636">
     <tr>
       <td><%= f.label :data_nascimento %></td>
       <td><%= f.label :nome_comprador %></td>
       <td><%= f.label :vendas_suspensas %></td>
     </tr>
     <tr>
-      <td><%= f.calendar_date_select :data_nascimento %></td>
+      <td><%= f.calendar_date_select :data_nascimento, :size => 10 %></td>
       <td><%= f.text_field :nome_comprador %><td>
       <td><%= f.select :vendas_suspensas,[['Sim',true],['Não',false]] %></td>
     </tr>      
 </table> 
-<table>     
+<table width="636"> 
     <tr>
       <td><%= f.label :observacao_suspensao_venda %></td>
       
@@ -123,7 +123,7 @@
       
     </tr>
 </table>  
-<table>
+<table width="636">
     <tr>
       <td><%= f.label :limite_credito %></td>
       <td><%= f.label :status %></td>
@@ -132,10 +132,10 @@
    
     </tr>
     <tr>
-      <td><%= f.text_field :limite_credito, :onkeypress => 'mascara(this, valor)' %></td>
+      <td><%= f.text_field :limite_credito, :onkeypress => 'mascara(this, valor)', :size => 20 %></td>
       <td><%= f.select :status,[['ATIVO','A'],['INATIVO','I']] %></td>
-      <td><%= f.text_field :prazo_medio_maximo %></td>
-      <td><%= f.calendar_date_select :data_inclusao_prazo_medio %><%= observe_field 'cliente_uf',
+      <td><%= f.text_field :prazo_medio_maximo, :size => 20 %></td>
+      <td><%= f.calendar_date_select :data_inclusao_prazo_medio, :size => 15 %><%= observe_field 'cliente_uf',
             :update => 'div_cidade',
             :url => {:action => 'cidade'},
             :with => :uf %>
@@ -145,7 +145,7 @@
 </table>
 
         
-    
+
 
         
                     
