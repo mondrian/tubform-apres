@@ -33083,3 +33083,129 @@ Processing ImpressaoNotaController#imprime_nota (for 127.0.0.1 at 2009-07-29 09:
 Rendering impressao_nota/dados_nota
 Sending data Nota Fiscal Nro.: 25478.pdf
 Completed in 2737ms (View: 1, DB: 0) | 200 OK [http://localhost/impressao_nota/imprime_nota/1?method=post]
+  [4;36;1mSQL (24.3ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PedidosDeAssistenciaController#new (for 127.0.0.1 at 2009-07-30 09:44:51) [GET]
+  [4;36;1mCliente Load (69.4ms)[0m   [0;1mSELECT * FROM "clientes" LIMIT 1[0m
+Rendering template within layouts/blue
+Rendering pedidos_de_assistencia/new
+  [4;35;1mSQL (43.0ms)[0m   [0mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;36;1mCliente Load (0.8ms)[0m   [0;1mSELECT * FROM "clientes" [0m
+  [4;35;1mSQL (47.4ms)[0m   [0mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;36;1mFuncionario Load (1.0ms)[0m   [0;1mSELECT * FROM "funcionarios" [0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSELECT count(*) AS count_all FROM "transportadoras" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "funcionarios" [0m
+Rendered pedidos_de_assistencia/_form (330.9ms)
+Rendered menus/_menu (3.7ms)
+Completed in 960ms (View: 294, DB: 187) | 200 OK [http://localhost/pedidos_de_assistencia/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PedidosDeAssistenciaController#new (for 127.0.0.1 at 2009-07-30 10:19:25) [GET]
+  [4;36;1mCliente Load (6.2ms)[0m   [0;1mSELECT * FROM "clientes" LIMIT 1[0m
+Rendering template within layouts/blue
+Rendering pedidos_de_assistencia/new
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;36;1mCliente Load (0.7ms)[0m   [0;1mSELECT * FROM "clientes" [0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;36;1mFuncionario Load (0.9ms)[0m   [0;1mSELECT * FROM "funcionarios" [0m
+  [4;35;1mSQL (0.8ms)[0m   [0mSELECT count(*) AS count_all FROM "transportadoras" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "funcionarios" [0m
+Rendered pedidos_de_assistencia/_form (104.9ms)
+Rendered menus/_menu (0.3ms)
+Completed in 185ms (View: 106, DB: 12) | 200 OK [http://localhost/pedidos_de_assistencia/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PedidosDeAssistenciaController#new (for 127.0.0.1 at 2009-07-30 10:20:40) [GET]
+  [4;36;1mCliente Load (10.8ms)[0m   [0;1mSELECT * FROM "clientes" LIMIT 1[0m
+Rendering template within layouts/blue
+Rendering pedidos_de_assistencia/new
+  [4;35;1mSQL (2.0ms)[0m   [0mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;36;1mCliente Load (0.8ms)[0m   [0;1mSELECT * FROM "clientes" [0m
+  [4;35;1mSQL (8.3ms)[0m   [0mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;36;1mFuncionario Load (1.1ms)[0m   [0;1mSELECT * FROM "funcionarios" [0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSELECT count(*) AS count_all FROM "transportadoras" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "funcionarios" [0m
+Rendered pedidos_de_assistencia/_form (170.1ms)
+Rendered menus/_menu (0.3ms)
+Completed in 245ms (View: 163, DB: 24) | 200 OK [http://localhost/pedidos_de_assistencia/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PedidosDeAssistenciaController#new (for 127.0.0.1 at 2009-07-30 10:23:17) [GET]
+  [4;36;1mCliente Load (1.9ms)[0m   [0;1mSELECT * FROM "clientes" LIMIT 1[0m
+Rendering template within layouts/blue
+Rendering pedidos_de_assistencia/new
+  [4;35;1mSQL (10.9ms)[0m   [0mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;36;1mCliente Load (0.8ms)[0m   [0;1mSELECT * FROM "clientes" [0m
+  [4;35;1mSQL (15.8ms)[0m   [0mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;36;1mFuncionario Load (1.1ms)[0m   [0;1mSELECT * FROM "funcionarios" [0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSELECT count(*) AS count_all FROM "transportadoras" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "funcionarios" [0m
+Rendered pedidos_de_assistencia/_form (109.1ms)
+Rendered menus/_menu (0.4ms)
+Completed in 170ms (View: 96, DB: 32) | 200 OK [http://localhost/pedidos_de_assistencia/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PedidosDeAssistenciaController#new (for 127.0.0.1 at 2009-07-30 10:24:13) [GET]
+  [4;36;1mCliente Load (5.8ms)[0m   [0;1mSELECT * FROM "clientes" LIMIT 1[0m
+Rendering template within layouts/blue
+Rendering pedidos_de_assistencia/new
+  [4;35;1mSQL (0.8ms)[0m   [0mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;36;1mCliente Load (2.3ms)[0m   [0;1mSELECT * FROM "clientes" [0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;36;1mFuncionario Load (0.9ms)[0m   [0;1mSELECT * FROM "funcionarios" [0m
+  [4;35;1mSQL (0.9ms)[0m   [0mSELECT count(*) AS count_all FROM "transportadoras" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "funcionarios" [0m
+Rendered pedidos_de_assistencia/_form (120.8ms)
+Rendered menus/_menu (0.3ms)
+Completed in 198ms (View: 125, DB: 13) | 200 OK [http://localhost/pedidos_de_assistencia/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PedidosDeAssistenciaController#new (for 127.0.0.1 at 2009-07-30 10:25:33) [GET]
+  [4;36;1mCliente Load (12.8ms)[0m   [0;1mSELECT * FROM "clientes" LIMIT 1[0m
+Rendering template within layouts/blue
+Rendering pedidos_de_assistencia/new
+  [4;35;1mSQL (0.7ms)[0m   [0mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;36;1mCliente Load (0.8ms)[0m   [0;1mSELECT * FROM "clientes" [0m
+  [4;35;1mSQL (1.3ms)[0m   [0mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;36;1mFuncionario Load (2.5ms)[0m   [0;1mSELECT * FROM "funcionarios" [0m
+  [4;35;1mSQL (1.9ms)[0m   [0mSELECT count(*) AS count_all FROM "transportadoras" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "funcionarios" [0m
+Rendered pedidos_de_assistencia/_form (156.6ms)
+Rendered menus/_menu (0.4ms)
+Completed in 243ms (View: 160, DB: 21) | 200 OK [http://localhost/pedidos_de_assistencia/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing PedidosDeAssistenciaController#new (for 127.0.0.1 at 2009-07-30 10:26:00) [GET]
+  [4;36;1mCliente Load (6.4ms)[0m   [0;1mSELECT * FROM "clientes" LIMIT 1[0m
+Rendering template within layouts/blue
+Rendering pedidos_de_assistencia/new
+  [4;35;1mSQL (0.8ms)[0m   [0mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;36;1mCliente Load (4.9ms)[0m   [0;1mSELECT * FROM "clientes" [0m
+  [4;35;1mSQL (2.4ms)[0m   [0mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;36;1mFuncionario Load (3.9ms)[0m   [0;1mSELECT * FROM "funcionarios" [0m
+  [4;35;1mSQL (2.6ms)[0m   [0mSELECT count(*) AS count_all FROM "transportadoras" [0m
+  [4;36;1mCACHE (0.0ms)[0m   [0;1mSELECT count(*) AS count_all FROM "funcionarios" [0m
+  [4;35;1mCACHE (0.0ms)[0m   [0mSELECT * FROM "funcionarios" [0m
+Rendered pedidos_de_assistencia/_form (169.9ms)
+Rendered menus/_menu (0.3ms)
+Completed in 252ms (View: 165, DB: 22) | 200 OK [http://localhost/pedidos_de_assistencia/new]
