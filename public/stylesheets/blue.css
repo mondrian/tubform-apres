@@ -111,7 +111,7 @@ code {
 	border-left: 6px solid #39F;
 	color: #555;
 	display: block;
-	font: normal 1.1em "Lucida Sans Unicode",serif;
+	font: normal 1.0em "Lucida Sans Unicode",serif;
 	margin-bottom: 12px;
 	padding: 8px 10px;
 	white-space: pre;
@@ -186,6 +186,7 @@ h1,h2,h3 {
 	padding-left: 12px;
 }
 .sidenav {
+  
 	background: #EEE;
 	border: 1px solid #E5E5E5;
 	float: left;
@@ -198,6 +199,7 @@ h1,h2,h3 {
 	margin-top: 1.2em;
 }
 .sidenav ul {
+top: auto;
 	border-top: 1px solid #FAFAFA;
 	background: url(/images//bgul.gif) repeat-x;
 	margin: 0;
@@ -277,3 +279,47 @@ h1,h2,h3 {
 	color: #06F;
 	text-decoration: underline;
 }
+
+/* alteração */
+
+.two-columns {
+	width: 780px;
+	margin: 10px;
+	padding-top: 10px 0;
+
+}
+
+.two-columns .column-one {
+	float: left;
+	width: 120px;
+  font-size: 1.0em;
+}
+
+.two-columns .column-two {
+	float: left;
+  padding-left: 220px;
+	width: 120px;
+  font-size: 1.0em;
+}
+
+.two-columns .column-three {
+	float: left;
+  padding-left: 220px;
+	width: 100px;
+  font-size: 1.0em;
+}
+
+.two-columns .title {
+	height: 28px;
+	padding: 7px 0 0 10px;
+	background-color: #000000 no-repeat;
+	font-size: 1.4em;
+	color: #333333;
+}
+
+.two-columns .entry {
+	background: url(images/img13.gif) repeat-x;
+}
+
+
+

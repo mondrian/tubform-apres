@@ -1,4 +1,4 @@
-<h1>Listing contra_partidas</h1>
+<h1>Listando contra_partidas</h1>
 
 <table>
   <tr>
@@ -18,13 +18,13 @@
     <td><%=h contra_partida.valor_lancamento %></td>
     <td><%=h contra_partida.tipo_operacao %></td>
     <td><%=h contra_partida.historico %></td>
-    <td><%= link_to 'Show', contra_partida %></td>
-    <td><%= link_to 'Edit', edit_contra_partida_path(contra_partida) %></td>
-    <td><%= link_to 'Destroy', contra_partida, :confirm => 'Are you sure?', :method => :delete %></td>
+    <td><%= link_to 'Mostrar', contra_partida %></td>
+    <td><%= link_to 'Editar', edit_contra_partida_path(contra_partida) %></td>
+    <td><%= link_to 'Excluir', contra_partida, :confirm => 'Você tem certeza?', :method => :delete %></td>
   </tr>
 <% end %>
 </table>
 
 <br />
 
-<%= link_to 'New contra_partida', new_contra_partida_path %>
+<%= link_to 'Nova contra partida', new_contra_partida_path %>
