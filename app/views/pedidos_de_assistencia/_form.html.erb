@@ -1,164 +1,171 @@
 <% form_for(@pedido_de_assistencia, :html => {:name=>'form_pedidos', :id=>'form_pedidos'}) do |f| %>
   <%= f.error_messages %>
-
-<table>
+<table width="636">
 	<tr>
-    <td><%= f.label :tipo %></td>
+		<td width="82"><label for="pedido_tipo">Tipo</label></td>
 
-    <td><%= f.label :cliente %></td>
+    <td width="211"><label for="pedido_cliente">Cliente</label></td>
 
-    <td><%= f.label :nosso_numero %></td>
+    <td width="6"></td>
 
-    <td><%= f.label :data, 'Data do pedido' %></td>
+  	<td width="91"><label for="pedido_nosso_numero">Nosso numero</label></td>
 
-    <td><%= f.label :previsao_entrega, 'Previsão de entrega' %></td>
+    <td width="96"><label for="pedido_data">Data do pedido</label></td>
 
-    <td><%= f.label :entrega %></td>
-
-    <td><%= f.label :programacao %></td>
+    <td width="122"><label for="pedido_previsao_entrega">Previsão de entrega</label></td>
 	</tr>
 	<tr>
-    <td><%= f.select :tipo,[['Interno','I'],['Externo','E']] %></td>
+   	<td><%= f.select :tipo,[['Interno','I'],['Externo','E']] %></td>
 
     <% if Cliente.count > 0 %>
-      <td><%= f.select :cliente_id, Cliente.all.collect { |c| [c.nome_fantasia,c.id] }, :prompt => "" %></td>
+    	<td><%= f.select :cliente_id, Cliente.all.collect { |c| [c.nome_fantasia,c.id] }, :prompt => "" %></td>
     <% else %>
-       <td><b> Nenhum cliente cadastrado.</b></td>
+    	<td><b> Nenhum cliente cadastrado.</b></td>
     <% end %>
     <%#= f.select :cliente_id, :size => 5 %>
     <%#= text_field_tag 'nome_cliente', @pedido_de_assistencia.cliente.razao_social, :disabled => true %>
 
-    <td><%= f.text_field :nosso_numero, :size => 10 %></td>
+    <td></td>
 
-    <td><%= f.text_field :data, :size => 10 %></td>
+    <td><%= f.text_field :nosso_numero, :size => 15 %></td>
 
-    <td><%= f.text_field :previsao_entrega, :size => 10  %></td>
+    <td><%= f.text_field :data, :size => 16 %></td>
 
-    <td><%= f.text_field :entrega, :size => 10  %></td>
-
-    <td><%= f.text_field :programacao, :size => 10  %></td>
+    <td><%= f.text_field :previsao_entrega, :size => 15 %></td>
 	</tr>
 </table>
 
-<table>
+<table width="636">
 	<tr>
-    <td><%= f.label :plano_de_pagamento %></td>
+    <td width="94"><label for="pedido_entrega">Entrega</label></td>
 
-    <td><%= f.label :vendedor %></td>
+    <td width="91"><label for="pedido_programacao">Programacao</label></td>
 
-    <td><td><%= f.label :valor %></td></td>
+    <td width="298"><label for="pedido_plano_de_pagamento">Plano de pagamento</label></td>
+
+   <td width="133"><label for="pedido_vendedor">Vendedor</label></td>
 	</tr>
 	<tr>
-    <td><%= f.text_field :plano_de_pagamento %></td>
+    <td><%= f.text_field :entrega, :size => 15  %></td>
 
+    <td><%= f.text_field :programacao, :size => 15  %></td>
+
+    <td><%= f.text_field :plano_de_pagamento, :size => 48 %></td>
+    
     <td><%= f.text_field :vendedor_id %></td>
     <% if Funcionario.count > 0 %>
-      <td><%= f.select :vendedor_id, Funcionario.all.collect { |c| [c.nome,c.id] }, :prompt => "" %></td>
+	    <td><%= f.select :vendedor_id, Funcionario.all.collect { |c| [c.nome,c.id] }, :prompt => "" %></td>
     <% else %>
-       <td><b> Nenhum vendedor cadastrado.</b></td>
+	    <td><b> Nenhum vendedor cadastrado.</b></td>
     <% end %>
     <%#= f.text_field :vendedor_id, :size => 5 %>
     <%#= text_field_tag 'nome', @pedido_de_assistencia.funcionario.nome, :disabled => true %>
 
-    <td><%= f.text_field :valor, :size => 10 %></td>
 	</tr>
 </table>
-
-<table>
+<table width="661">
 	<tr>
-    <td><%= f.label :transportadora %></td>
+    <td width="66"><label for="pedido_valor">Valor</label></td>
 
-    <td><%= f.label :comprador %></td>
+    <td width="247"><label for="pedido_transportadora">Transportadora</label></td>
+
+    <td width="250"><label for="pedido_comprador">Comprador</label><br /></td>
 	</tr>
 	<tr>
+    <td><%= f.text_field :valor, :size => 11 %></td>
+    
     <% if Transportadora.count > 0 %>
       <td><%= f.select :transportadora_id, Transportadora.all.collect { |c| [c.razao_social,c.id] }, :prompt => "" %></td>
     <% else %>
        <td><b> Nenhuma transportadora cadastrada.</b></td>
     <% end %>
 
-    <td><%= f.text_field :nome_comprador %></td>
+    <td><%= f.text_field :nome_comprador, :size => 40 %></td>
 	</tr>
+
 </table>
 
-<table>
+<table width="641">
 	<tr>
-    <td><%= f.label :endereco_entrega %></td>
+    <td width="188"><label for="pedido_endereco_entrega">Endereco entrega</label></td>
 
-    <td><%= f.label :minuta_id %></td>
+    <td width="188"><label for="pedido_minuta_id">Minuta</label></td>
 
-    <td><%= f.label :area_id %></td>
+    <td width="36"><label for="pedido_area_id">Area</label></td>
 
-    <td><%= f.label :telemarketing_id %></td>
+    <td width="171"><label for="pedido_registro">Registro</label></td>
 	</tr>
 	<tr>
-    <td><%= f.text_field :endereco_entrega %></td>
+    <td><%= f.text_field :endereco_entrega, :size => 30 %></td>
 
-    <td><%= f.text_field :minuta_id %></td>
+    <td><%= f.text_field :minuta_id, :size => 30 %></td>
 
     <td><%= f.text_field :area_id, :size => 5 %></td>
+
     <%#= text_field_tag 'descricao', @pedido_de_assistencia.area.descricao, :disabled => true %>
 
-    <td><%= f.text_field :telemarketing_id, :size => 5 %></td>
+    <td><%= f.text_field :telemarketing_id, :size => 21 %></td>
     <%#= text_field_tag 'nome', @pedido_de_assistencia.funcionario.nome, :disabled => true %>
+
+    <td width="15"></td>
+
+    <td width="15">&nbsp;</td>
 	</tr>
 </table>
-
-<table>
+<table width="636">
 	<tr>
-    <td><%= f.label :registro %></td>
+    <td width="240"><label for="pedido_empresa_id">Empresa</label></td>		
 
-    <td><%= f.label :empresa_id %></td>
+    <td width="150"><label for="pedido_status">Status</label><br /></td>
 
-    <td><%= f.label :status %></td>
+    <td width="90"><label for="pedido_status_estorno">Status estorno</label><br /></td>
+
+    <td width="136"><label for="pedido_operador_estorno_id">Operador estorno</label><br /></td>
 	</tr>
 	<tr>
-    <td><%= f.text_field :registro, :size => 10 %></td>
+    <td><%= f.text_field :empresa_id, :size => 39 %></td>
 
-    <td><%= f.text_field :empresa_id %></td>
+    <td><%= f.text_field :status, :size => 25 %></td>
 
-    <td><%= f.text_field :status %></td>
+    <td><%= f.text_field :status_estorno, :size => 10 %></td>
+
+    <td><%= f.text_field :operador_estorno_id, :size => 12 %></td>
+
+
 	</tr>
 </table>
-
-<table>
+<table width="636">
 	<tr>
-    <td><%= f.label :status_estorno %></td>
+    <td width="107"><label for="pedido_venda_externa">Venda externa</label><br /></td>
 
-    <td><%= f.label :operador_estorno_id %></td>
+    <td width="190"><label for="pedido_telemarketing_id">Desconto complementar</label><br /></td>
 
-    <td><%= f.label :venda_externa %></td>
-
-    <td><%= f.label :autorizador %></td>
+    <td width="306"><label for="pedido_autorizador">Autorizador</label><br /></td>		
 	</tr>
 	<tr>
-    <td><%= f.text_field :status_estorno %></td>
-
-    <td><%= f.text_field :operador_estorno_id, :size => 5 %></td>
-
-    <%#= text_field_tag 'nome', @pedido_de_assistencia.funcionario.nome , :disabled => true %>
-
     <td><%= f.select :venda_externa,[['Sim','S'],['Não','N']] %></td>
 
+    <td><%= f.text_field :telemarketing_id, :size => 33 %></td>
+    <%#= text_field_tag 'nome', @pedido_de_assistencia.funcionario.nome, :disabled => true %>
+    
     <% if Funcionario.count > 0 %>
-      <td><%= f.select :autorizador_id, Funcionario.all.collect { |c| [c.nome,c.id] }, :prompt => "" %></td>
+    	<td><%= f.select :autorizador_id, Funcionario.all.collect { |c| [c.nome,c.id] }, :prompt => "" %></td>
     <% else %>
-       <td><b> Nenhum funcionário cadastrado.</b></td>
+    	<td><b> Nenhum funcionário cadastrado.</b></td>
     <% end %>
+    
 	</tr>
 </table>
-
-<table>
+<table width="637">
 	<tr>
-    <td><%= f.label :observacao %></td>
-	</tr>
-	<tr>
-    <td><%= f.text_area :observacao %></td>
+    <td width="637"><label for="pedido_observacao">Observacao</label><br /></td>
+  </tr>
+  <tr>
+    <td><%= f.text_area :observacao, :cols => 77, :rows => 20 %></td>
 	</tr>
 </table>
 
   <p>
-	  <%= f.submit 'Salvar' %>
+    <%= f.submit 'Salvar' %>
   </p>
 <% end %>
-
