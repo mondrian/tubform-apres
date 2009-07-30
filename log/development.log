@@ -33209,3 +33209,147 @@ Rendering pedidos_de_assistencia/new
 Rendered pedidos_de_assistencia/_form (169.9ms)
 Rendered menus/_menu (0.3ms)
 Completed in 252ms (View: 165, DB: 22) | 200 OK [http://localhost/pedidos_de_assistencia/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing NotasFiscaisController#new (for 127.0.0.1 at 2009-07-30 10:28:27) [GET]
+Rendering template within layouts/blue
+Rendering notas_fiscais/new
+  [4;36;1mSQL (4.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;35;1mCliente Load (1.0ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendered notas_fiscais/_form (78.9ms)
+Rendered menus/_menu (0.3ms)
+Completed in 170ms (View: 114, DB: 6) | 200 OK [http://localhost/notas_fiscais/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing NotasFiscaisController#new (for 127.0.0.1 at 2009-07-30 10:51:35) [GET]
+Rendering template within layouts/blue
+Rendering notas_fiscais/new
+  [4;36;1mSQL (4.2ms)[0m   [0;1mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;35;1mCliente Load (1.2ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendered notas_fiscais/_form (78.7ms)
+Rendered menus/_menu (0.4ms)
+Completed in 287ms (View: 108, DB: 6) | 200 OK [http://localhost/notas_fiscais/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing NotasFiscaisController#new (for 127.0.0.1 at 2009-07-30 10:51:49) [GET]
+Rendering template within layouts/blue
+Rendering notas_fiscais/new
+  [4;36;1mSQL (1.5ms)[0m   [0;1mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;35;1mCliente Load (1.0ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendered notas_fiscais/_form (148.3ms)
+Rendered menus/_menu (0.5ms)
+Completed in 201ms (View: 172, DB: 3) | 200 OK [http://localhost/notas_fiscais/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing NotasFiscaisController#new (for 127.0.0.1 at 2009-07-30 10:52:14) [GET]
+Rendering template within layouts/blue
+Rendering notas_fiscais/new
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;35;1mCliente Load (1.0ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendered notas_fiscais/_form (70.0ms)
+Rendered menus/_menu (0.4ms)
+Completed in 137ms (View: 100, DB: 3) | 200 OK [http://localhost/notas_fiscais/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing NotasFiscaisController#new (for 127.0.0.1 at 2009-07-30 10:53:44) [GET]
+Rendering template within layouts/blue
+Rendering notas_fiscais/new
+  [4;36;1mSQL (1.7ms)[0m   [0;1mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;35;1mCliente Load (1.4ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendered notas_fiscais/_form (60.1ms)
+Rendered menus/_menu (0.4ms)
+Completed in 102ms (View: 71, DB: 4) | 200 OK [http://localhost/notas_fiscais/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing NotasFiscaisController#new (for 127.0.0.1 at 2009-07-30 10:54:18) [GET]
+Rendering template within layouts/blue
+Rendering notas_fiscais/new
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;35;1mCliente Load (1.0ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendered notas_fiscais/_form (48.6ms)
+Rendered menus/_menu (0.3ms)
+Completed in 104ms (View: 74, DB: 3) | 200 OK [http://localhost/notas_fiscais/new]
+  [4;36;1mSQL (0.5ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing NotasFiscaisController#new (for 127.0.0.1 at 2009-07-30 10:55:27) [GET]
+Rendering template within layouts/blue
+Rendering notas_fiscais/new
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;35;1mCliente Load (4.7ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendered notas_fiscais/_form (74.8ms)
+Rendered menus/_menu (0.4ms)
+Completed in 144ms (View: 101, DB: 7) | 200 OK [http://localhost/notas_fiscais/new]
+  [4;36;1mSQL (1.0ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing NotasFiscaisController#new (for 127.0.0.1 at 2009-07-30 10:55:54) [GET]
+Rendering template within layouts/blue
+Rendering notas_fiscais/new
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;35;1mCliente Load (1.2ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendered notas_fiscais/_form (62.6ms)
+Rendered menus/_menu (0.4ms)
+Completed in 202ms (View: 101, DB: 4) | 200 OK [http://localhost/notas_fiscais/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing NotasFiscaisController#new (for 127.0.0.1 at 2009-07-30 10:56:15) [GET]
+Rendering template within layouts/blue
+Rendering notas_fiscais/new
+  [4;36;1mSQL (1.4ms)[0m   [0;1mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;35;1mCliente Load (1.0ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendered notas_fiscais/_form (213.6ms)
+Rendered menus/_menu (0.5ms)
+Completed in 273ms (View: 246, DB: 3) | 200 OK [http://localhost/notas_fiscais/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.3ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing NotasFiscaisController#new (for 127.0.0.1 at 2009-07-30 10:56:30) [GET]
+Rendering template within layouts/blue
+Rendering notas_fiscais/new
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;35;1mCliente Load (1.0ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendered notas_fiscais/_form (65.1ms)
+Rendered menus/_menu (18.1ms)
+Completed in 140ms (View: 103, DB: 3) | 200 OK [http://localhost/notas_fiscais/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing NotasFiscaisController#new (for 127.0.0.1 at 2009-07-30 10:56:43) [GET]
+Rendering template within layouts/blue
+Rendering notas_fiscais/new
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;35;1mCliente Load (5.6ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendered notas_fiscais/_form (76.4ms)
+Rendered menus/_menu (0.4ms)
+Completed in 128ms (View: 95, DB: 8) | 200 OK [http://localhost/notas_fiscais/new]
+  [4;36;1mSQL (0.4ms)[0m   [0;1mSET client_min_messages TO 'panic'[0m
+  [4;35;1mSQL (0.4ms)[0m   [0mSET client_min_messages TO 'notice'[0m
+
+
+Processing NotasFiscaisController#new (for 127.0.0.1 at 2009-07-30 10:56:56) [GET]
+Rendering template within layouts/blue
+Rendering notas_fiscais/new
+  [4;36;1mSQL (1.3ms)[0m   [0;1mSELECT count(*) AS count_all FROM "clientes" [0m
+  [4;35;1mCliente Load (1.0ms)[0m   [0mSELECT * FROM "clientes" [0m
+Rendered notas_fiscais/_form (60.5ms)
+Rendered menus/_menu (0.8ms)
+Completed in 109ms (View: 74, DB: 3) | 200 OK [http://localhost/notas_fiscais/new]
