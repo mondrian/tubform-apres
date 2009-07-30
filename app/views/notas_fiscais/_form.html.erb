@@ -9,11 +9,11 @@
     <td><%= f.label :cliente %></td>
 	</tr>
 	<tr>
-    <td><%= f.text_field :numero_nota %></td>
+    <td><%= f.text_field :numero_nota, :size => 25 %></td>
 
-    <td><%= f.text_field :selo %></td>
+    <td><%= f.text_field :selo, :size => 25 %></td>
 
-    <td><%= f.text_field :serie %></td>
+    <td><%= f.text_field :serie, :size => 25 %></td>
 
     <% if Cliente.count > 0 %>
       <td><%= f.select :cliente_id, Cliente.all.collect { |c| [c.nome_fantasia,c.id] }, :prompt => "" %></td>
@@ -35,13 +35,13 @@
     <td><%= f.label :valor_frete, 'Valor do frete' %></td>
 	</tr>
 	<tr>
-    <td><%= f.text_field :percentual_icms %></td>
+    <td><%= f.text_field :percentual_icms, :size => 25 %></td>
 
-    <td><%= f.text_field :emissao %></td>
+    <td><%= f.text_field :emissao, :size => 25 %></td>
 
-    <td><%= f.text_field :total_mercadoria %></td>
+    <td><%= f.text_field :total_mercadoria, :size => 25 %></td>
 
-    <td><%= f.text_field :valor_frete %></td>
+    <td><%= f.text_field :valor_frete, :size => 25 %></td>
 	</tr>
 </table>
 
@@ -56,13 +56,13 @@
     <td><%= f.label :valor_desconto, 'Valor do desconto' %></td>
 	</tr>
 	<tr>
-    <td><%= f.text_field :cfop %></td>
+    <td><%= f.text_field :cfop, :size => 25 %></td>
  
-    <td><%= f.text_field :natureza_operacao %></td>
+    <td><%= f.text_field :natureza_operacao, :size => 25 %></td>
 
-    <td><%= f.text_field :valor_ipi %></td>
+    <td><%= f.text_field :valor_ipi, :size => 25 %></td>
 
-    <td><%= f.text_field :valor_desconto %></td>
+    <td><%= f.text_field :valor_desconto, :size => 25 %></td>
 	</tr>
 </table>
 
@@ -77,14 +77,14 @@
     <td><%= f.label :valor_icms, 'Valor do icms' %></td>
 	</tr>
 	<tr>
-    <td><%= f.text_field :total_nota %></td>
+    <td><%= f.text_field :total_nota, :size => 25 %></td>
 
-    <td><%= f.text_field :status %></td>
+    <td><%= f.text_field :status, :size => 25 %></td>
     <!-- <%= f.select :status,[['Impressa','S'],['Não Impressa','N']] %> -->
 
-    <td><%= f.text_field :base_calculo_icms %></td>
+    <td><%= f.text_field :base_calculo_icms, :size => 25 %></td>
 
-    <td><%= f.text_field :valor_icms %></td>
+    <td><%= f.text_field :valor_icms, :size => 25 %></td>
 	</tr>
 </table>
 
@@ -99,13 +99,13 @@
     <td><%= f.label :transportadora_id, 'Transportadora' %></td>
 	</tr>
 	<tr>
-    <td><%= f.text_field :qtde_volumes %></td>
+    <td><%= f.text_field :qtde_volumes, :size => 25 %></td>
 
-    <td><%= f.calendar_date_select :entrada %></td>
+    <td><%= f.calendar_date_select :entrada, :size => 25 %></td>
 
-    <td><%= f.calendar_date_select :saida %></td>
+    <td><%= f.calendar_date_select :saida, :size => 25 %></td>
 
-    <td><%= f.text_field :transportadora_id %></td>
+    <td><%= f.text_field :transportadora_id, :size => 25 %></td>
 	</tr>
 </table>
 
@@ -114,19 +114,24 @@
     <td><%= f.label :percentual_desconto, 'Percentual de desconto' %></td>
 
     <td><%= f.label :base_calculo_icms_substituicao_tributaria, 'Base de cálculo icms substituição tributária' %></td>
+	</tr>
+	<tr>
+    <td><%= f.text_field :percentual_desconto, :size => 25 %></td>
 
+    <td><%= f.text_field :base_calculo_icms_substituicao_tributaria, :size => 25 %></td>
+	</tr>
+</table>
+
+<table>
+	<tr>
     <td><%= f.label :percentual_icms_substituicao_tributaria, 'Percentual do icms substituição tributária' %></td>
 
     <td><%= f.label :valor_icms_substituicao_tributaria, 'Valor do icms substituição tributária' %></td>
 	</tr>
 	<tr>
-    <td><%= f.text_field :percentual_desconto %></td>
+    <td><%= f.text_field :percentual_icms_substituicao_tributaria, :size => 32 %></td>
 
-    <td><%= f.text_field :base_calculo_icms_substituicao_tributaria %></td>
-
-    <td><%= f.text_field :percentual_icms_substituicao_tributaria %></td>
-
-    <td><%= f.text_field :valor_icms_substituicao_tributaria %></td>
+    <td><%= f.text_field :valor_icms_substituicao_tributaria, :size => 32 %></td>
 	</tr>
 </table>
 
@@ -135,6 +140,6 @@
     <td><%= f.label :observacao, 'Observação' %></td>
 	</tr>
 	<tr>
-    <td><%= f.text_area :observacao %></td>
+    <td><%= f.text_area :observacao, :cols => 77, :rows => 20 %></td>
 	</tr>
 </table>
